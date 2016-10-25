@@ -132,6 +132,10 @@ a {
   color: #FF1744;
 }
 
+.small {
+  font-size: .8em;
+}
+
 div {
     display: flex;
     flex-direction: column;
