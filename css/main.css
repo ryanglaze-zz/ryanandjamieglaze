@@ -131,7 +131,7 @@ div {
     /*border: 8px solid #fff;*/
     background: url(../img/Ryan-and-Jamie-54.jpg) no-repeat center center;
     flex: 1;
-    padding: 8rem;
+    padding: 10%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,7 +140,7 @@ div {
 
 .right-half {
     flex: 1;
-    padding: 8rem;
+    padding: 40px 10%;
 }
 
 
