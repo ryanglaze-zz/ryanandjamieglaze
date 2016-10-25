@@ -13,9 +13,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: rgba(0, 0, 0, 0.87);
     font-size: 1em;
-    line-height: 1.4;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -46,7 +47,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid rgba(0, 0, 0, 0.87);
     margin: 1em 0;
     padding: 0;
 }
@@ -108,6 +109,14 @@ body {
     text-align: center;
 }
 
+h1, h2 {
+  font-family: 'Parisienne', cursive;
+}
+
+p {
+  font-size: .8em;
+}
+
 div {
     display: flex;
     flex-direction: column;
@@ -119,9 +128,10 @@ div {
 }
 
 .left-half {
-    background: url(../img/Ryan-and-Jamie-54.jpg) no-repeat center center fixed;
+    /*border: 8px solid #fff;*/
+    background: url(../img/Ryan-and-Jamie-54.jpg) no-repeat center center;
     flex: 1;
-    padding: 1rem;
+    padding: 8rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,7 +140,7 @@ div {
 
 .right-half {
     flex: 1;
-    padding: 1rem;
+    padding: 8rem;
 }
 
 
@@ -254,7 +264,7 @@ div {
     a, a:visited {
         text-decoration: underline;
     }
-    a[href]:after {
+    a[ef]:after {
         content: " (" attr(href) ")";
     }
     abbr[title]:after {
