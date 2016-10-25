@@ -16,7 +16,8 @@ html {
     color: rgba(0, 0, 0, 0.87);
     font-size: 1em;
     line-height: 1.6;
-    font-family: 'Fauna One', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: normal;
 }
 
 
@@ -48,7 +49,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.10);
-    margin: 1.5em 15%;
+    margin: 2em 15%;
     padding: 0;
 }
 
@@ -110,28 +111,23 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Playfair Display SC', serif;
   font-weight: normal;
 }
 h1 {
-  font-size: 2.6em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: .8em;
+  font-size: 1em;
 }
 
 a {
   text-decoration: none;
   color: #FF1744;
-}
-
-.small {
-  font-size: .8em;
 }
 
 div {
