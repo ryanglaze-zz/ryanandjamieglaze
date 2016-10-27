@@ -129,7 +129,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #FF1744;
+    color: #651FFF;
 }
 
 div {
@@ -144,8 +144,9 @@ div {
 
 .left-half {
     /*border: 8px solid #fff;*/
-    background: url(../img/Ryan-and-Jamie-61.jpg) no-repeat center center;
+    background: url(../img/Ryan-and-Jamie-54.jpg) no-repeat center center;
     border: 8px solid #fff;
+    border-right: none;
     flex: 1;
     padding: 8%;
     -webkit-background-size: cover;
@@ -155,9 +156,13 @@ div {
 }
 
 .right-half {
-    border: 8px solid #fff;
+    background: url(../img/lavender.jpg) no-repeat center center;
     flex: 1;
-    padding: 40px 8%;
+    padding: 8%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
