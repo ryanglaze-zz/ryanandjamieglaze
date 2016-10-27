@@ -259,8 +259,11 @@ div {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 35em) {
+@media only screen and (max-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
+    .left-half {
+      display: none;
+    }
 }
 
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
