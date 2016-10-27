@@ -284,6 +284,7 @@ article {
     }
     .right-half {
         position: relative;
+        padding: 12px;
     }
     div {
         flex-direction: row;
