@@ -150,7 +150,6 @@ div {
 .left-half {
     background: url(../img/Ryan-and-Jamie-54.jpg) no-repeat center center;
     border: 8px solid #fff;
-    border-right: none;
     flex: 1;
     padding: 8%;
     -webkit-background-size: cover;
