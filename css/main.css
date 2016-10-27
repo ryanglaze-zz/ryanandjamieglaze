@@ -105,8 +105,13 @@ html, body, section {
     height: 100%;
 }
 
+html>body {
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+}
+
 body {
-    /*border: 8px solid #fff;*/
     text-align: center;
 }
 
@@ -143,7 +148,6 @@ div {
 }
 
 .left-half {
-    /*border: 8px solid #fff;*/
     background: url(../img/Ryan-and-Jamie-54.jpg) no-repeat center center;
     border: 8px solid #fff;
     border-right: none;
@@ -166,7 +170,7 @@ div {
 }
 
 article {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -266,15 +270,14 @@ article {
 @media only screen and (max-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
     .left-half {
-      display: none;
+        display: none;
     }
     .right-half {
-      /*background-size: auto;*/
     }
     div {
-      display: block;
-      flex-direction: row;
-      justify-content: top;
+        display: block;
+        flex-direction: row;
+        justify-content: top;
     }
 }
 
