@@ -273,9 +273,10 @@ article {
         display: none;
     }
     .right-half {
+        position: absolute;
     }
     div {
-        display: block;
+        position: relative;
         flex-direction: row;
         justify-content: top;
     }
